@@ -360,10 +360,8 @@ function PreSchool() {
           <div class="bg-orange rounded">
             <div class="row g-0">
               <div class="col-lg-6"  >
-                {/* style="min-height: 400px; visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;"> */}
                 <div class="position-relative h-100">
                   <img class="position-absolute w-100 h-100 rounded" src="https://themewagon.github.io/kider/img/call-to-action.jpg" />
-                  {/* // style="object-fit: cover;" /> */}
                 </div>
               </div>
               <div class="col-lg-6 ">
