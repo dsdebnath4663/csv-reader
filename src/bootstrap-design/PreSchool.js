@@ -378,6 +378,63 @@ function PreSchool() {
         </div>
       </div>
 
+      {/* School Classes Section */}
+
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="text-center mx-auto mb-5 height" >
+            <h1 class="mb-3">School Classes</h1>
+            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="classes-item">
+                <div class="bg-orange rounded-circle w-75 mx-auto p-3">
+                  <img class="img-fluid rounded-circle" src="https://themewagon.github.io/kider/img/classes-1.jpg" alt="" />
+                </div>
+                <div class="bg-orange rounded p-4 pt-5 mt-n5">
+                  <a class="d-block text-center h3 mt-3 mb-4" href="">Art &amp; Drawing</a>
+                  <div class="d-flex align-items-center justify-content-between mb-4">
+                    <div class="d-flex align-items-center">
+                      <img class="rounded-circle flex-shrink-0 rounded-circle-one" src="https://themewagon.github.io/kider/img/user.jpg" alt="" />
+                      <div class="ms-3">
+                        <h6 class="text-orange mb-1">Jhon Doe</h6>
+                        <small>Teacher</small>
+                      </div>
+                    </div>
+                    <span class="bg-orange-2 text-white rounded-pill py-2 px-3" href="">$99</span>
+                  </div>
+                  <div class="row g-1">
+                    <div class="col-4">
+                      <div class="border-top border-3 border-orange pt-2">
+                        <h6 class="text-orange mb-1">Age:</h6>
+                        <small>3-5 Years</small>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="border-top border-3 border-success pt-2">
+                        <h6 class="text-success mb-1">Time:</h6>
+                        <small>9-10 AM</small>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="border-top border-3 border-warning pt-2">
+                        <h6 class="text-warning mb-1">Capacity:</h6>
+                        <small>30 Kids</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+        </div>
+      </div>
 
     </div >
   );

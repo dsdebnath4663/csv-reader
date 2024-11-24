@@ -371,9 +371,14 @@ h4,
   margin-top: -150px;
 }
 
-.bg-light:hover {
+.bg-light:hover,
+.bg-orange-2 {
   background-color: #fe5d37 !important;
   transition: background-color 1s ease; /* Adjust the duration (0.3s) as needed */
+}
+.border-orange {
+  --bs-border-opacity: 1;
+  border-color: #fe5d37 !important;
 }
 
 .row .col-lg-6 {
@@ -384,4 +389,32 @@ h4,
 
 .col-lg-6 img {
   object-fit: cover;
+}
+
+.row .g-4 .col-lg-4 {
+  visibility: visible;
+}
+
+.container-xxl .container .height {
+  max-width: 600px;
+  visibility: visible;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+}
+
+.rounded {
+  border-radius: 10px !important;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+.p-4 {
+  padding: 1.5rem !important;
+}
+.mt-n5 {
+  margin-top: -3rem !important;
+}
+.h6 {
+  font-weight: 600 !important;
 }
