@@ -318,7 +318,20 @@ function PreSchool() {
 
 
             </div>
-            <div class="col-md-6">Column Right</div>
+            {/* Right column of Learn More About Our Work And Our Cultural Activities */}
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <img class="img-fluid w-75 rounded-circle bg-light p-3" src="https://themewagon.github.io/kider/img/about-1.jpg" alt="" />
+                </div>
+                <div class="col-6 text-start mt-minius-150 ">
+                  <img class="img-fluid w-100 rounded-circle bg-light p-3" src="https://themewagon.github.io/kider/img/about-2.jpg" alt="" />
+                </div>
+                <div class="col-6 text-end   mt-minius-150 ">
+                  <img class="img-fluid w-100 rounded-circle bg-light p-3" src="https://themewagon.github.io/kider/img/about-3.jpg" alt="" />
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>

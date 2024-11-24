@@ -367,3 +367,11 @@ h4,
   height: 45px;
 }
 
+.mt-minius-150 {
+  margin-top: -150px;
+}
+
+.bg-light:hover {
+  background-color: #fe5d37 !important;
+  transition: background-color 1s ease; /* Adjust the duration (0.3s) as needed */
+}
