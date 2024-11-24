@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --text-green: #e8f3ee !important;
+  --bg-green: #198754 !important;
+
+  --hover-text-green: #198754 !important;
+  --hover-bg-green: #e8f3ee !important;
+
+  --text-orange: #ffefeb !important;
+  --bg-orange: #fe5d37 !important;
+
+  --hover-text-orange: #fe5d37 !important;
+  --hover-bg-orange: #ffefeb !important;
+
+  --text-warning: #fff9e7 !important;
+  --bg-warning: #ffc107 !important;
+
+  --hover-text-warning: #ffc107 !important;
+  --hover-bg-warning: #fff9e7 !important;
+
+  --text-warning: #e7fafe !important;
+  --bg-warning: #0dcaf0 !important;
+
+  --hover-text-warning: #0dcaf0 !important;
+  --hover-bg-warning: #e7fafe !important;
+
+  --transition-duration: 0.5s;
 }

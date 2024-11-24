@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  /* color: #74787c; */
+  background-color: #fff5f3;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.btn-primary-custom {
+  width: 118px;
+
+  background-color: #fe5d37;
+  border-color: #fe5d37;
+  border-radius: 25px;
+  font-size: 17px;
+  margin-top: 22px;
+  height: 43px;
+}
+
+.btn-primary-custom:hover {
+  background-color: #f96847;
+  border-color: #f96847;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding: 30px 15px;
+  color: #103741;
+  font-weight: 500;
+  outline: none;
+}
+.nav-link {
+  color: #000; /* Default link color */
+  text-decoration: none; /* Remove underline by default */
+  transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-link:hover {
+  color: #fe5d37 !important; /* Change color on hover */
+  text-decoration: none !important; /* Add underline on hover */
+  background-color: white !important;
+}
+.h1-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fe5d37 !important; /* Change color on hover */
+}
+
+.h1-inline i {
+  margin-right: 8px;
+  color: #fe5d37 !important; /* Change color on hover */
+}
+
+.navbar::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 10px;
+  top: 100px;
+  left: 0;
+  background: url(https://themewagon.github.io/kider/img/bg-header-top.png)
+    center center repeat-x;
+  z-index: 1;
+}
+
+img,
+svg {
+  width: 100% !important;
+}
+
+.carousel-item {
+  width: 100% !important;
+  margin-left: 0% !important;
+}
+
+.carousel-control-next {
+  position: absolute;
+  z-index: 99;
+  left: 87%;
+  top: 265px;
+  height: 52px;
+  width: 52px;
+  border-radius: 128px;
+  border: 1px solid white;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  z-index: 99;
+  left: 87%;
+  top: 338px;
+  height: 52px;
+  width: 52px;
+  border-radius: 128px;
+  border: 1px solid white;
+}
+
+.Jumbotron {
+  position: absolute;
+  z-index: 99;
+  top: 28%;
+}
+
+.btn-primary-custom-two {
+  background-color: #fe5d37;
+  border-color: #fe5d37;
+  /* border-radius: 25px; */
+  width: 22%;
+}
+
+.btn-primary-custom-three {
+  /* border-radius: 25px; */
+  width: 22%;
+}
+
+.btn-primary-custom-two:hover,
+.btn-primary-custom-two:active,
+.btn-primary-custom-two:focus {
+  background-color: #f96847 !important;
+  border-color: #f96847 !important;
+}
+
+.display-4 {
+  display: flex;
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 526%;
+}
+.carousel-item::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 10px;
+  top: 97%;
+  left: 0;
+  background: url(https://themewagon.github.io/kider/img/bg-header-bottom.png)
+    center center repeat-x;
+  z-index: 1;
+  height: 30px;
+}
+
+.custom-row-height {
+  height: 481px; /* Set your desired height */
+}
+
+.text-green {
+  color: #198754 !important;
+}
+.bg-green {
+  background-color: #e8f3ee !important;
+}
+.text-orange {
+  color: #fe5d37 !important;
+}
+.bg-orange {
+  background-color: #ffefeb !important;
+}
+.bg-warning {
+  background-color: #fff9e7 !important;
+}
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.bg-info {
+  background-color: #e7fafe !important;
+}
+.text-info {
+  color: #0dcaf0 !important;
+}
+
+.btn-primary {
+  background-color: #fe5d37!important;
+  border-color: #fe5d37!important;
+}
+.text {
+  width: 18px;
+  height: 29px;
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  left: 0;
+}
+
+.item .item-top span:last-child {
+  left: auto;
+  right: 0;
+}
+.item-1:hover span,
+.item-1:hover .text-orange,
+.item-1:hover .item-top,
+.item-1:hover .item-bottom {
+  background-color: #fe5d37 !important;
+  /* var(--text-orange); */
+  color: white !important;
+}
+
+.item-2:hover span,
+.item-2:hover .text-green,
+.item-2:hover .item-top,
+.item-2:hover .item-bottom {
+  background-color: #198754 !important;
+  /* var(--text-orange); */
+  color: white !important;
+}
+
+.item-3:hover span,
+.item-3:hover .text-warning,
+.item-3:hover .item-top,
+.item-3:hover .item-bottom {
+  background-color: #ffc107 !important;
+  /* var(--text-orange); */
+  color: white !important;
+}
+
+.item-4:hover span,
+.item-4:hover .text-info,
+.item-4:hover .item-top,
+.item-4:hover .item-bottom {
+  background-color: #0dcaf0 !important;
+  /* var(--text-orange); */
+  color: white !important;
+}
+
+.item-top {
+  height: 100px;
+  width: 100px;
+  background-color: #fff5f3;
+  margin: 0 auto;
+
+  border-radius: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.item-bottom {
+  background-color: #fff5f3;
+  position: relative;
+  min-height: 250px;
+  padding: 30px;
+  border-radius: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fa-custom {
+  font-size: 46px;
+  position: absolute;
+  z-index: 1;
+  /* color: #fe5d37 !important; */
+}
+
+h1,
+h2,
+h3,
+h4,
+.h1,
+.h2,
+.h3,
+.h4,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Custom animation */
+@keyframes moveFromBelow {
+  0% {
+    transform: translateY(100%); /* Start below the row */
+    opacity: 0; /* Start invisible */
+  }
+  100% {
+    transform: translateY(0); /* End at original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Apply animation */
+.animated-col {
+  animation: moveFromBelow 1s ease-out; /* Adjust duration and easing */
+}
+@keyframes moveFromTop {
+  0% {
+    transform: translateY(-100%); /* Start above the viewport */
+    opacity: 0; /* Invisible at the start */
+  }
+  50% {
+    opacity: 1; /* Fade in */
+  }
+  100% {
+    transform: translateY(0%); /* Move to the middle of the row */
+  }
+}
+
+/* Apply animation to the heading */
+.animated-heading {
+  animation: moveFromTop 1.5s ease-out; /* Duration and easing */
+  position: relative; /* Ensure proper positioning */
+}
+
+/* Animation for "Learn more" button moving from left */
+@keyframes moveFromLeft {
+  0% {
+    transform: translateX(-100%); /* Start off-screen on the left */
+    opacity: 0; /* Invisible at the start */
+  }
+  100% {
+    transform: translateX(0); /* End at original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Animation for "Our Classes" button moving from right */
+@keyframes moveFromRight {
+  0% {
+    transform: translateX(100%); /* Start off-screen on the right */
+    opacity: 0; /* Invisible at the start */
+  }
+  100% {
+    transform: translateX(0); /* End at original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Apply the animations */
+.move-left {
+  animation: moveFromLeft 1s ease-out;
+}
+
+.move-right {
+  animation: moveFromRight 1s ease-out;
+}
+
+.md-4 p {
+  color: #74787c;
+}
