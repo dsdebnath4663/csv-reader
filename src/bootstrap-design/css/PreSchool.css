@@ -375,3 +375,14 @@ h4,
   background-color: #fe5d37 !important;
   transition: background-color 1s ease; /* Adjust the duration (0.3s) as needed */
 }
+
+.col-md-teacher {
+  min-height: 400px;
+  visibility: visible;
+  animation-delay: 0.1s;
+  animation-name: fadeIn;
+}
+
+.col-md-teacher-img {
+  object-fit: cover;
+}

@@ -358,7 +358,14 @@ function PreSchool() {
       <div className=" container-xxl py-5">
         <div className="container bg-white mt-5">
           <div class="row justify-content-center align-items-center g-2">
-            <div class="col-md-6">Left</div>
+            {/* Become A Teacher Left side image Section*/}
+            <div class="col-md-6 col-md-teacher">
+              left
+              <div class="position-relative ">
+                <img class="position-absolute w-100  rounded col-md-teacher-img" src="https://themewagon.github.io/kider/img/call-to-action.jpg" />
+              </div>
+            </div>
+
             <div class="col-md-6">Right</div>
           </div>
         </div>
