@@ -158,7 +158,6 @@ function PreSchool() {
 
       <div className=" container-xxl py-5">
         <div className="container bg-white mt-5">
-
           <div className="text-center md-5">
             <h1 class="h1-inline md-3">School Facilities</h1>
             <p class="mb-0">
@@ -171,10 +170,7 @@ function PreSchool() {
             </p>
           </div>
 
-
           <div className="row justify-content-center align-items-center g-2 custom-row-height mt-3 ">
-
-
             {/* first item */}
             <div className="col-md-3 bg-ligh custom-row-height animated-col">
               <div className="item item-1 px-1">
@@ -254,14 +250,16 @@ function PreSchool() {
                 <div class="item-top bg-info">
                   <span class="text bg-info"></span>
 
-                  <i class="fa fa-address-book-o  fa-custom text-info" aria-hidden="true"></i>
+                  <i
+                    class="fa fa-address-book-o  fa-custom text-info"
+                    aria-hidden="true"
+                  ></i>
 
                   <span class=" text bg-info"></span>
                 </div>
                 <div class="item-bottom bg-info">
                   <div class="text-center md-5">
-                    <h3 class=" mb-3 text-info">Positive Learning
-                    </h3>
+                    <h3 class=" mb-3 text-info">Positive Learning</h3>
                     <p class="mb-0">
                       Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor
                       ut dolore lorem kasd
@@ -276,34 +274,46 @@ function PreSchool() {
 
       <div className=" container-xxl py-5">
         <div className="container bg-white mt-5">
-          <div
-            class="row justify-content-center align-items-center g-2"
-          >
+          <div class="row justify-content-center align-items-center g-2">
             <div class="col-md-6">
-              <div
-                class="row justify-content-center align-items-center g-2"
-              >
+              <div class="row justify-content-center align-items-center g-2">
                 <div class=" md-4">
                   <h1>Learn More About Our Work And Our Cultural Activities</h1>
 
-                  <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-
                   <p>
-                    Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos, ipsum labore duo duo sit no sea diam. Et dolor et kasd ea. Eirmod diam at dolor est vero nonumy magna.
+                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem et
+                    sit, sed stet lorem sit clita duo justo magna dolore erat
+                    amet
                   </p>
 
-                  <div
-                    class="row justify-content-center align-items-center g-2"
-                  >
-                    <div class="col-md-6">
-                      <a class="btn btn-primary rounded-pill py-3 px-5 w-75 " href="#" role="button">Read more</a>
-                    </div>
+                  <p>
+                    Stet no et lorem dolor et diam, amet duo ut dolore vero eos.
+                    No stet est diam rebum amet diam ipsum. Clita clita labore,
+                    dolor duo nonumy clita sit at, sed sit sanctus dolor eos,
+                    ipsum labore duo duo sit no sea diam. Et dolor et kasd ea.
+                    Eirmod diam at dolor est vero nonumy magna.
+                  </p>
 
+                  <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-md-6">
+                      <a
+                        class="btn btn-primary rounded-pill py-3 px-5 w-75 "
+                        href="#"
+                        role="button"
+                      >
+                        Read more
+                      </a>
+                    </div>
 
                     {/* Jhon Doe image section */}
                     <div class="col-md-6">
                       <div class="d-flex align-items-center">
-                        <img class="rounded-circle rounded-circle-one flex-shrink-0" src="https://themewagon.github.io/kider/img/user.jpg" alt="" />
+                        <img
+                          class="rounded-circle rounded-circle-one flex-shrink-0"
+                          src="https://themewagon.github.io/kider/img/user.jpg"
+                          alt=""
+                        />
                         <div class="ms-3">
                           <h6 class="text-primary mb-1">Jhon Doe</h6>
                           <small>CEO &amp; Founder</small>
@@ -311,29 +321,36 @@ function PreSchool() {
                       </div>
                     </div>
                   </div>
-
-
                 </div>
               </div>
-
-
             </div>
             {/* Right column of Learn More About Our Work And Our Cultural Activities */}
             <div class="col-md-6">
               <div class="row">
                 <div class="col-12 text-center">
-                  <img class="img-fluid w-75 rounded-circle bg-light p-3" src="https://themewagon.github.io/kider/img/about-1.jpg" alt="" />
+                  <img
+                    class="img-fluid w-75 rounded-circle bg-light p-3"
+                    src="https://themewagon.github.io/kider/img/about-1.jpg"
+                    alt=""
+                  />
                 </div>
                 <div class="col-6 text-start mt-minius-150 ">
-                  <img class="img-fluid w-100 rounded-circle bg-light p-3" src="https://themewagon.github.io/kider/img/about-2.jpg" alt="" />
+                  <img
+                    class="img-fluid w-100 rounded-circle bg-light p-3"
+                    src="https://themewagon.github.io/kider/img/about-2.jpg"
+                    alt=""
+                  />
                 </div>
                 <div class="col-6 text-end   mt-minius-150 ">
-                  <img class="img-fluid w-100 rounded-circle bg-light p-3" src="https://themewagon.github.io/kider/img/about-3.jpg" alt="" />
+                  <img
+                    class="img-fluid w-100 rounded-circle bg-light p-3"
+                    src="https://themewagon.github.io/kider/img/about-3.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
