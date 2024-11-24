@@ -303,7 +303,7 @@ function PreSchool() {
                     {/* Jhon Doe image section */}
                     <div class="col-md-6">
                       <div class="d-flex align-items-center">
-                        <img class="rounded-circle flex-shrink-0" src="https://themewagon.github.io/kider/img/user.jpg" alt="" />
+                        <img class="rounded-circle-one flex-shrink-0" src="https://themewagon.github.io/kider/img/user.jpg" alt="" />
                         <div class="ms-3">
                           <h6 class="text-primary mb-1">Jhon Doe</h6>
                           <small>CEO &amp; Founder</small>
