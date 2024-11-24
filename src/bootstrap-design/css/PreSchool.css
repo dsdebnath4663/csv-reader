@@ -175,8 +175,8 @@ svg {
 }
 
 .btn-primary {
-  background-color: #fe5d37!important;
-  border-color: #fe5d37!important;
+  background-color: #fe5d37 !important;
+  border-color: #fe5d37 !important;
 }
 .text {
   width: 18px;
@@ -360,4 +360,9 @@ h4,
 
 .md-4 p {
   color: #74787c;
+}
+
+.rounded-circle {
+  width: 45px !important;
+  height: 45px;
 }

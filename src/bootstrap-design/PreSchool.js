@@ -300,10 +300,15 @@ function PreSchool() {
                     </div>
 
 
-
+                    {/* Jhon Doe image section */}
                     <div class="col-md-6">
-
-                      ljkj
+                      <div class="d-flex align-items-center">
+                        <img class="rounded-circle flex-shrink-0" src="https://themewagon.github.io/kider/img/user.jpg" alt="" />
+                        <div class="ms-3">
+                          <h6 class="text-primary mb-1">Jhon Doe</h6>
+                          <small>CEO &amp; Founder</small>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
