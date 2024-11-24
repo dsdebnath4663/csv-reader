@@ -353,6 +353,18 @@ function PreSchool() {
           </div>
         </div>
       </div>
+
+      {/* Become A Teacher Section*/}
+      <div className=" container-xxl py-5">
+        <div className="container bg-white mt-5">
+          <div class="row justify-content-center align-items-center g-2">
+            <div class="col-md-6">Left</div>
+            <div class="col-md-6">Right</div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   );
 }
