@@ -37,11 +37,6 @@ function PreSchool() {
     <div className="container-xxl bg-white p-0">
       {/* <nav className="navbar navbar-expand-lg shadow-sm "> */}
       <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top  shadow-sm">
-        {/* <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0 shadow-sm" style="top: 0px;"> */}
-        {/* <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0" style="top: -100px;"> */}
-
-        {/* <nav className="navbar navbar-expand-lg shadow-sm sticky-top bg-white"> */}
-
         <div className="container">
           <div className="text-center">
             <h1 className="h1-inline">
@@ -359,18 +354,26 @@ function PreSchool() {
         <div class="container">
           <div class="bg-orange rounded">
             <div class="row g-0">
-              <div class="col-lg-6"  >
+              <div class="col-lg-6">
                 <div class="position-relative h-100">
-                  <img class="position-absolute w-100 h-100 rounded" src="https://themewagon.github.io/kider/img/call-to-action.jpg" />
+                  <img
+                    class="position-absolute w-100 h-100 rounded"
+                    src="https://themewagon.github.io/kider/img/call-to-action.jpg"
+                  />
                 </div>
               </div>
               <div class="col-lg-6 ">
                 <div class="h-100 d-flex flex-column justify-content-center p-5">
                   <h1 class="mb-4">Become A Teacher</h1>
-                  <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
-                    Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                  <p class="mb-4">
+                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem et
+                    sit, sed stet lorem sit clita duo justo magna dolore erat
+                    amet
                   </p>
-                  <a class="btn btn-primary py-3 px-5" href="">Get Started Now<i class="fa fa-arrow-right ms-2"></i></a>
+                  <a class="btn btn-primary py-3 px-5" href="">
+                    Get Started Now<i class="fa fa-arrow-right ms-2"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -382,27 +385,46 @@ function PreSchool() {
 
       <div class="container-xxl py-5">
         <div class="container">
-          <div class="text-center mx-auto mb-5 height" >
+          <div class="text-center mx-auto mb-5 height">
             <h1 class="mb-3">School Classes</h1>
-            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+            <p>
+              Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut
+              dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed
+              rebum vero dolor duo.
+            </p>
           </div>
           <div class="row g-4">
             <div class="col-lg-4 col-md-6">
               <div class="classes-item">
                 <div class="bg-orange rounded-circle w-75 mx-auto p-3">
-                  <img class="img-fluid rounded-circle" src="https://themewagon.github.io/kider/img/classes-1.jpg" alt="" />
+                  <img
+                    class="img-fluid rounded-circle"
+                    src="https://themewagon.github.io/kider/img/classes-1.jpg"
+                    alt=""
+                  />
                 </div>
                 <div class="bg-orange rounded p-4 pt-5 mt-n5">
-                  <a class="d-block text-center h3 mt-3 mb-4" href="">Art &amp; Drawing</a>
+                  <a class="d-block text-center h3 mt-3 mb-4" href="">
+                    Art &amp; Drawing
+                  </a>
                   <div class="d-flex align-items-center justify-content-between mb-4">
                     <div class="d-flex align-items-center">
-                      <img class="rounded-circle flex-shrink-0 rounded-circle-one" src="https://themewagon.github.io/kider/img/user.jpg" alt="" />
+                      <img
+                        class="rounded-circle flex-shrink-0 rounded-circle-one"
+                        src="https://themewagon.github.io/kider/img/user.jpg"
+                        alt=""
+                      />
                       <div class="ms-3">
                         <h6 class="text-orange mb-1">Jhon Doe</h6>
                         <small>Teacher</small>
                       </div>
                     </div>
-                    <span class="bg-orange-2 text-white rounded-pill py-2 px-3" href="">$99</span>
+                    <span
+                      class="bg-orange-2 text-white rounded-pill py-2 px-3"
+                      href=""
+                    >
+                      $99
+                    </span>
                   </div>
                   <div class="row g-1">
                     <div class="col-4">
@@ -427,16 +449,100 @@ function PreSchool() {
                 </div>
               </div>
             </div>
-
-
-
-
-
           </div>
         </div>
       </div>
 
-    </div >
+      {/* Make Appointment Section */}
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="bg-orange rounded">
+            <div class="row g-0">
+              <div class="col-lg-6  visibility-visible">
+                <div class="h-100 d-flex flex-column justify-content-center p-5">
+                  <h1 class="mb-4">Make Appointment</h1>
+                  <form>
+                    <div class="row g-3">
+                      <div class="col-sm-6">
+                        <div class="form-floating">
+                          <input
+                            type="text"
+                            class="form-control border-0"
+                            id="gname"
+                            placeholder="Gurdian Name"
+                          />
+                          <label for="gname">Gurdian Name</label>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-floating">
+                          <input
+                            type="email"
+                            class="form-control border-0"
+                            id="gmail"
+                            placeholder="Gurdian Email"
+                          />
+                          <label for="gmail">Gurdian Email</label>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-floating">
+                          <input
+                            type="text"
+                            class="form-control border-0"
+                            id="cname"
+                            placeholder="Child Name"
+                          />
+                          <label for="cname">Child Name</label>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-floating">
+                          <input
+                            type="text"
+                            class="form-control border-0"
+                            id="cage"
+                            placeholder="Child Age"
+                          />
+                          <label for="cage">Child Age</label>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-floating">
+                          <textarea
+                            class="form-control border-0 h-100"
+                            placeholder="Leave a message here"
+                            id="message"
+                          ></textarea>
+                          <label for="message">Message</label>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <button
+                          class="btn btn-primary w-100 py-3"
+                          type="submit"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="position-relative h-100">
+                  <img
+                    class="position-absolute w-100 h-100 rounded object-fit-cover"
+                    src="https://themewagon.github.io/kider/img/appointment.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 

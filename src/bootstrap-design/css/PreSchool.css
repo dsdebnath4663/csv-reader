@@ -387,7 +387,7 @@ h4,
   object-fit: cover;
 }
 
-.col-lg-6 img {
+.col-lg-6 img ,.object-fit-cover{
   object-fit: cover;
 }
 
@@ -417,4 +417,8 @@ h4,
 }
 .h6 {
   font-weight: 600 !important;
+}
+
+.visibility-visible {
+  visibility: visible;
 }
