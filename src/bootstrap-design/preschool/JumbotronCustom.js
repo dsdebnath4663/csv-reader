@@ -1,5 +1,5 @@
 import React from "react";
-import "./../css/PreSchool.css";
+// import "./../css/PreSchool.css";
 
 function JumbotronCustom({ firstText = "", secondText = "" }) {
   // Log the input text lengths

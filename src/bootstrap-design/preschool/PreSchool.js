@@ -1,8 +1,8 @@
 // import React from "react";
 import React, { useEffect } from "react";
 
-import "./css/PreSchool.css";
-import JumbotronCustom from "./custom-btsrp/JumbotronCustom";
+import "../css/PreSchool.css";
+import JumbotronCustom from "./JumbotronCustom";
 
 function PreSchool() {
   const firstText = "Make A Brighter Future For Your Child";
@@ -456,75 +456,74 @@ function PreSchool() {
       {/* Make Appointment Section */}
       <div class="container-xxl py-5">
         <div class="container">
-          <div class="bg-orange rounded">
+          <div class="bg-light2 rounded">
             <div class="row g-0">
-              <div class="col-lg-6  visibility-visible">
+              <div class="col-lg-6 ">
                 <div class="h-100 d-flex flex-column justify-content-center p-5">
                   <h1 class="mb-4">Make Appointment</h1>
+
                   <form>
-                    <div class="row g-3">
+                    <div class="row  g-2">
                       <div class="col-sm-6">
-                        <div class="form-floating">
-                          <input
-                            type="text"
-                            class="form-control border-0"
-                            id="gname"
-                            placeholder="Gurdian Name"
-                          />
-                          <label for="gname">Gurdian Name</label>
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-floating">
+                        <div class="form-floating mb-3">
                           <input
                             type="email"
-                            class="form-control border-0"
-                            id="gmail"
-                            placeholder="Gurdian Email"
+                            class="form-control is-invalid1"
+                            id="floatingInput"
+                            placeholder="name@example.com"
                           />
-                          <label for="gmail">Gurdian Email</label>
+                          <label for="floatingInput">Email address</label>
                         </div>
                       </div>
                       <div class="col-sm-6">
-                        <div class="form-floating">
+                        <div class="form-floating mb-3">
                           <input
-                            type="text"
-                            class="form-control border-0"
-                            id="cname"
-                            placeholder="Child Name"
+                            type="email"
+                            class="form-control is-invalid1"
+                            id="floatingInput"
+                            placeholder="name@example.com"
                           />
-                          <label for="cname">Child Name</label>
+                          <label for="floatingInput">Email address</label>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-6">
+                        <div class="form-floating mb-3">
+                          <input
+                            type="email"
+                            class="form-control is-invalid1"
+                            id="floatingInput"
+                            placeholder="name@example.com"
+                          />
+                          <label for="floatingInput">Email address</label>
                         </div>
                       </div>
                       <div class="col-sm-6">
-                        <div class="form-floating">
+                        <div class="form-floating mb-3">
                           <input
-                            type="text"
-                            class="form-control border-0"
-                            id="cage"
-                            placeholder="Child Age"
+                            type="email"
+                            class="form-control is-invalid1"
+                            id="floatingInput"
+                            placeholder="name@example.com"
                           />
-                          <label for="cage">Child Age</label>
+                          <label for="floatingInput">Email address</label>
                         </div>
                       </div>
-                      <div class="col-12">
-                        <div class="form-floating">
+
+                      <div class="col-sm-12">
+                        <div class="form-floating mb-3">
                           <textarea
-                            class="form-control border-0 h-100"
-                            placeholder="Leave a message here"
-                            id="message"
+                            class="form-control"
+                            placeholder="Leave a comment here"
+                            id="floatingTextarea2"
                           ></textarea>
-                          <label for="message">Message</label>
+                          <label for="floatingTextarea2">Comments</label>
                         </div>
                       </div>
-                      <div class="col-12">
-                        <button
-                          class="btn btn-primary w-100 py-3"
-                          type="submit"
-                        >
-                          Submit
-                        </button>
-                      </div>
+
+                      <a class="btn btn-primary py-3 px-5" href="">
+                        Get Started Now
+                      </a>
                     </div>
                   </form>
                 </div>
@@ -532,14 +531,149 @@ function PreSchool() {
               <div class="col-lg-6">
                 <div class="position-relative h-100">
                   <img
-                    class="position-absolute w-100 h-100 rounded object-fit-cover"
-                    src="https://themewagon.github.io/kider/img/appointment.jpg"
+                    class="position-absolute w-100 h-100 rounded"
+                    src="https://themewagon.github.io/kider/img/call-to-action.jpg"
                   />
                 </div>
               </div>
             </div>
-           
           </div>
+        </div>
+      </div>
+
+      {/*Popular Teachers
+ Section */}
+
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="text-center mx-auto mb-5 height">
+            <h1 class="mb-3"> Popular Teachers</h1>
+            <p>
+              Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut
+              dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed
+              rebum vero dolor duo.
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="classes-item team-item position-relative">
+                <img
+                  class="img-fluid rounded-circle w-75"
+                  src="https://themewagon.github.io/kider/img/team-1.jpg"
+                  alt=""
+                />
+                <div className="team-text text-center rounded-circle  ">
+                  <h3>Full Name</h3>
+                  <p>Designation</p>
+                  <div class="">
+                    <a class="btn btn-primary mx-1 btn-square bg-black" href="#" role="button">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a class="btn btn-primary mx-1 btn-square" href="#" role="button">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a class="btn btn-primary mx-1 btn-square" href="#" role="button">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-xxl py-5 bg-dark">
+        <div class="container">
+          <div class="row "          >
+            <div class="col-lg-3 col-md-6 ">
+              <h3 className="mb-3 text-white">Get In Touch </h3>
+              <p className="mb-1 text-white-50">
+                <i className="fa fa-arrow-right ms-2 me-2 " aria-hidden="true"></i>
+                123 Street, New York, USA
+              </p>
+              <p className="mb-1 text-white-50">
+                <i className="fa fa-arrow-right ms-2 me-2 " aria-hidden="true"></i>
+                +012 345 67890
+              </p>
+
+              <p className="mb-1 text-white-50">
+                <i className="fa fa-arrow-right ms-2 me-2 " aria-hidden="true"></i>
+                info@example.com
+              </p>
+              <div className="mt-4">
+                <a class="btn mx-1 btn-square btn-outline" href="#" role="button">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a class="btn mx-1 btn-square btn-outline" href="#" role="button">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+
+                <a class="btn mx-1 btn-square btn-outline" href="#" role="button">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a class="btn mx-1 btn-square btn-outline" href="#" role="button">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-white">
+              <h3>Quick Links </h3>
+              <a className="btn-link text-white-50 mb-2">About Us</a>
+              <a className="btn-link  text-white-50 mb-2">Contact Us</a>
+              <a className="btn-link text-white-50 mb-2">Our Services</a>
+              <a className="btn-link text-white-50 mb-2">Privacy Policy</a>
+              <a className="btn-link text-white-50 mb-2">Terms & Condition</a>
+            </div>
+            <div class="col-lg-3 col-md-6 text-white">
+              <h3>Photo Gallery              </h3>
+              <div class="row g-2 pt-2" >
+                <div class="col-4">
+                  <img src="https://themewagon.github.io/kider/img/classes-1.jpg" alt="image-1" className="rounded img-fluid bg-orange p-1" />
+                </div>
+                <div class="col-4">
+                  <img src="https://themewagon.github.io/kider/img/classes-2.jpg" alt="image-1" className="rounded img-fluid bg-orange p-1" />
+                </div>
+                <div class="col-4">
+                  <img src="https://themewagon.github.io/kider/img/classes-3.jpg" alt="image-1" className="rounded img-fluid bg-orange p-1" />
+                </div>
+                <div class="col-4">
+                  <img src="https://themewagon.github.io/kider/img/classes-4.jpg" alt="image-1" className="rounded img-fluid bg-orange p-1" />
+                </div>
+                <div class="col-4">
+                  <img src="https://themewagon.github.io/kider/img/classes-5.jpg" alt="image-1" className="rounded img-fluid bg-orange p-1" />
+                </div>
+                <div class="col-4">
+                  <img src="https://themewagon.github.io/kider/img/classes-6.jpg" alt="image-1" className="rounded img-fluid bg-orange p-1" />
+                </div>
+
+
+              </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-white">
+              <h3>Photo Gallery </h3>
+              <p>
+                Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+              <div className="position-relative mx-auto">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control is-invalid1 bg-transparent"
+                    id="floatingInput"
+                    placeholder="Your email"
+                  />
+
+                  <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
         </div>
       </div>
     </div>

@@ -39,12 +39,9 @@ import BookingModifications from './component/listing/BookingModifications';
 import CustomerInfoCard from './component/listing/CustomerInfoCard';
 import BookingStatusAlert from './component/listing/BookingStatusAlert';
 import CssTutorials from './component/css/CssTutorials';
-import BootstrapLayoutFirstDesign from './bootstrap-design/BootstrapLayoutFirstDesign';
-import BootstrapLayoutSecondDesign from './bootstrap-design/BootstrapLayoutSecondDesign';
-import BootstrapLayoutThirdDesign from './bootstrap-design/BootstrapLayoutThirdDesign';
-import BootstrapLayoutfourthDesign from './bootstrap-design/BootstrapLayoutfourthDesign';
-import BootstrapLayoutFiveDesign from './bootstrap-design/BootstrapLayoutFiveDesign';
-import PreSchool from './bootstrap-design/PreSchool';
+
+import PortfolioAndResume from './bootstrap-design/portfoilio/PortfolioAndResume';
+import PreSchool from './bootstrap-design/preschool/PreSchool';
 
 
 function App() {
@@ -112,6 +109,7 @@ function App() {
       {/* <BootstrapLayoutThirdDesign/> */}
       {/* <BootstrapLayoutfourthDesign/> */}
       {/* <BootstrapLayoutFiveDesign /> */}
+      {/* <PortfolioAndResume /> */}
       <PreSchool />
     </Container>
   );
